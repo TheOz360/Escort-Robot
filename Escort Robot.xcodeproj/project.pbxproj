@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2162BA3257F3C7400CF52D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2162BA2257F3C7400CF52D3 /* AppDelegate.swift */; };
+		D2162BA5257F3C7400CF52D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2162BA4257F3C7400CF52D3 /* SceneDelegate.swift */; };
+		D2162BA7257F3C7400CF52D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2162BA6257F3C7400CF52D3 /* ViewController.swift */; };
+		D2162BAA257F3C7400CF52D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2162BA8257F3C7400CF52D3 /* Main.storyboard */; };
+		D2162BAC257F3C7500CF52D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2162BAB257F3C7500CF52D3 /* Assets.xcassets */; };
+		D2162BAF257F3C7500CF52D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2162BAD257F3C7500CF52D3 /* LaunchScreen.storyboard */; };
+		D2162BBA257F3C7600CF52D3 /* Escort_RobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2162BB9257F3C7600CF52D3 /* Escort_RobotTests.swift */; };
+		D2162BC5257F3C7600CF52D3 /* Escort_RobotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2162BC4257F3C7600CF52D3 /* Escort_RobotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2162BB6257F3C7600CF52D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2162B97257F3C7400CF52D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2162B9E257F3C7400CF52D3;
+			remoteInfo = "Escort Robot";
+		};
+		D2162BC1257F3C7600CF52D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2162B97257F3C7400CF52D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2162B9E257F3C7400CF52D3;
+			remoteInfo = "Escort Robot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2162B9F257F3C7400CF52D3 /* Escort Robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Escort Robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2162BA2257F3C7400CF52D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2162BA4257F3C7400CF52D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2162BA6257F3C7400CF52D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2162BA9257F3C7400CF52D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2162BAB257F3C7500CF52D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2162BAE257F3C7500CF52D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2162BB0257F3C7500CF52D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2162BB5257F3C7600CF52D3 /* Escort RobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Escort RobotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2162BB9257F3C7600CF52D3 /* Escort_RobotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escort_RobotTests.swift; sourceTree = "<group>"; };
+		D2162BBB257F3C7600CF52D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2162BC0257F3C7600CF52D3 /* Escort RobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Escort RobotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2162BC4257F3C7600CF52D3 /* Escort_RobotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escort_RobotUITests.swift; sourceTree = "<group>"; };
+		D2162BC6257F3C7600CF52D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2162B9C257F3C7400CF52D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2162BB2257F3C7600CF52D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2162BBD257F3C7600CF52D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2162B96257F3C7400CF52D3 = {
+			isa = PBXGroup;
+			children = (
+				D2162BA1257F3C7400CF52D3 /* Escort Robot */,
+				D2162BB8257F3C7600CF52D3 /* Escort RobotTests */,
+				D2162BC3257F3C7600CF52D3 /* Escort RobotUITests */,
+				D2162BA0257F3C7400CF52D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2162BA0257F3C7400CF52D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2162B9F257F3C7400CF52D3 /* Escort Robot.app */,
+				D2162BB5257F3C7600CF52D3 /* Escort RobotTests.xctest */,
+				D2162BC0257F3C7600CF52D3 /* Escort RobotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2162BA1257F3C7400CF52D3 /* Escort Robot */ = {
+			isa = PBXGroup;
+			children = (
+				D2162BA2257F3C7400CF52D3 /* AppDelegate.swift */,
+				D2162BA4257F3C7400CF52D3 /* SceneDelegate.swift */,
+				D2162BA6257F3C7400CF52D3 /* ViewController.swift */,
+				D2162BA8257F3C7400CF52D3 /* Main.storyboard */,
+				D2162BAB257F3C7500CF52D3 /* Assets.xcassets */,
+				D2162BAD257F3C7500CF52D3 /* LaunchScreen.storyboard */,
+				D2162BB0257F3C7500CF52D3 /* Info.plist */,
+			);
+			path = "Escort Robot";
+			sourceTree = "<group>";
+		};
+		D2162BB8257F3C7600CF52D3 /* Escort RobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2162BB9257F3C7600CF52D3 /* Escort_RobotTests.swift */,
+				D2162BBB257F3C7600CF52D3 /* Info.plist */,
+			);
+			path = "Escort RobotTests";
+			sourceTree = "<group>";
+		};
+		D2162BC3257F3C7600CF52D3 /* Escort RobotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2162BC4257F3C7600CF52D3 /* Escort_RobotUITests.swift */,
+				D2162BC6257F3C7600CF52D3 /* Info.plist */,
+			);
+			path = "Escort RobotUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2162B9E257F3C7400CF52D3 /* Escort Robot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2162BC9257F3C7600CF52D3 /* Build configuration list for PBXNativeTarget "Escort Robot" */;
+			buildPhases = (
+				D2162B9B257F3C7400CF52D3 /* Sources */,
+				D2162B9C257F3C7400CF52D3 /* Frameworks */,
+				D2162B9D257F3C7400CF52D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Escort Robot";
+			productName = "Escort Robot";
+			productReference = D2162B9F257F3C7400CF52D3 /* Escort Robot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2162BB4257F3C7600CF52D3 /* Escort RobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2162BCC257F3C7600CF52D3 /* Build configuration list for PBXNativeTarget "Escort RobotTests" */;
+			buildPhases = (
+				D2162BB1257F3C7600CF52D3 /* Sources */,
+				D2162BB2257F3C7600CF52D3 /* Frameworks */,
+				D2162BB3257F3C7600CF52D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2162BB7257F3C7600CF52D3 /* PBXTargetDependency */,
+			);
+			name = "Escort RobotTests";
+			productName = "Escort RobotTests";
+			productReference = D2162BB5257F3C7600CF52D3 /* Escort RobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2162BBF257F3C7600CF52D3 /* Escort RobotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2162BCF257F3C7600CF52D3 /* Build configuration list for PBXNativeTarget "Escort RobotUITests" */;
+			buildPhases = (
+				D2162BBC257F3C7600CF52D3 /* Sources */,
+				D2162BBD257F3C7600CF52D3 /* Frameworks */,
+				D2162BBE257F3C7600CF52D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2162BC2257F3C7600CF52D3 /* PBXTargetDependency */,
+			);
+			name = "Escort RobotUITests";
+			productName = "Escort RobotUITests";
+			productReference = D2162BC0257F3C7600CF52D3 /* Escort RobotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2162B97257F3C7400CF52D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					D2162B9E257F3C7400CF52D3 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					D2162BB4257F3C7600CF52D3 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D2162B9E257F3C7400CF52D3;
+					};
+					D2162BBF257F3C7600CF52D3 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D2162B9E257F3C7400CF52D3;
+					};
+				};
+			};
+			buildConfigurationList = D2162B9A257F3C7400CF52D3 /* Build configuration list for PBXProject "Escort Robot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2162B96257F3C7400CF52D3;
+			productRefGroup = D2162BA0257F3C7400CF52D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2162B9E257F3C7400CF52D3 /* Escort Robot */,
+				D2162BB4257F3C7600CF52D3 /* Escort RobotTests */,
+				D2162BBF257F3C7600CF52D3 /* Escort RobotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2162B9D257F3C7400CF52D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2162BAF257F3C7500CF52D3 /* LaunchScreen.storyboard in Resources */,
+				D2162BAC257F3C7500CF52D3 /* Assets.xcassets in Resources */,
+				D2162BAA257F3C7400CF52D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2162BB3257F3C7600CF52D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2162BBE257F3C7600CF52D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2162B9B257F3C7400CF52D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2162BA7257F3C7400CF52D3 /* ViewController.swift in Sources */,
+				D2162BA3257F3C7400CF52D3 /* AppDelegate.swift in Sources */,
+				D2162BA5257F3C7400CF52D3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2162BB1257F3C7600CF52D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2162BBA257F3C7600CF52D3 /* Escort_RobotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2162BBC257F3C7600CF52D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2162BC5257F3C7600CF52D3 /* Escort_RobotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2162BB7257F3C7600CF52D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2162B9E257F3C7400CF52D3 /* Escort Robot */;
+			targetProxy = D2162BB6257F3C7600CF52D3 /* PBXContainerItemProxy */;
+		};
+		D2162BC2257F3C7600CF52D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2162B9E257F3C7400CF52D3 /* Escort Robot */;
+			targetProxy = D2162BC1257F3C7600CF52D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2162BA8257F3C7400CF52D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2162BA9257F3C7400CF52D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2162BAD257F3C7500CF52D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2162BAE257F3C7500CF52D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2162BC7257F3C7600CF52D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2162BC8257F3C7600CF52D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2162BCA257F3C7600CF52D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Escort Robot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team26unr.Escort-Robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2162BCB257F3C7600CF52D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Escort Robot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team26unr.Escort-Robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2162BCD257F3C7600CF52D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Escort RobotTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team26unr.Escort-RobotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escort Robot.app/Escort Robot";
+			};
+			name = Debug;
+		};
+		D2162BCE257F3C7600CF52D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Escort RobotTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team26unr.Escort-RobotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escort Robot.app/Escort Robot";
+			};
+			name = Release;
+		};
+		D2162BD0257F3C7600CF52D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Escort RobotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team26unr.Escort-RobotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Escort Robot";
+			};
+			name = Debug;
+		};
+		D2162BD1257F3C7600CF52D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Escort RobotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team26unr.Escort-RobotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Escort Robot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2162B9A257F3C7400CF52D3 /* Build configuration list for PBXProject "Escort Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2162BC7257F3C7600CF52D3 /* Debug */,
+				D2162BC8257F3C7600CF52D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2162BC9257F3C7600CF52D3 /* Build configuration list for PBXNativeTarget "Escort Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2162BCA257F3C7600CF52D3 /* Debug */,
+				D2162BCB257F3C7600CF52D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2162BCC257F3C7600CF52D3 /* Build configuration list for PBXNativeTarget "Escort RobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2162BCD257F3C7600CF52D3 /* Debug */,
+				D2162BCE257F3C7600CF52D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2162BCF257F3C7600CF52D3 /* Build configuration list for PBXNativeTarget "Escort RobotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2162BD0257F3C7600CF52D3 /* Debug */,
+				D2162BD1257F3C7600CF52D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2162B97257F3C7400CF52D3 /* Project object */;
+}
